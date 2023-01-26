@@ -1,0 +1,15 @@
+@import '_global.scss';
+@import '_hidden-animation';
+@import '_header.scss';
+@import '_main-destaques';
+@import '_main-caracteristicas';
+@import '_main-planos';
+@import '_main-contatos';
+@import '_footer';
+@import '_responsividade';
+
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

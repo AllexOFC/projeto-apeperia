@@ -1,0 +1,43 @@
+footer{
+
+    .footer{
+        width: 100%;
+        height: 100px;
+        background-image: url(/img/bg-intro.jpg);
+        background-position: top;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+
+        img{
+            margin-left: 42px
+        }
+
+        div{
+            width: 300px;
+            margin-right: 20%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h1{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                text-transform: uppercase;
+            }
+
+            .fa-brands{
+                transition: ease-in-out .3s;
+
+                &:hover{
+                    color: #f8f8f8;
+                    transition: ease-in-out .3s;
+                }
+            }
+        }
+    }
+}
